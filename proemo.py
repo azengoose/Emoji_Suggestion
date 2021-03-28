@@ -1,5 +1,9 @@
 """
-A program to predict what emojis are appropriate for a message inputted by the user. Personally, I love being able to search and find the perfect emoji to use, but I'm sure some people can't be bothered and suggested emojis could  remove some friction from text messaging, and make it easier for someone to find the emoji perfectly expressing how they feel. 
+A program to predict what emojis are appropriate for a message inputted by the user. 
+Personally, I love being able to search and find the perfect emoji to use, but I'm sure 
+some people can't be bothered and suggested emojis could  remove some friction from text 
+messaging, and make it easier for someone to find the emoji perfectly expressing how they 
+feel. 
 Example 1: The weather sure is fine today. Prediction: 😁 👍 🥰
 Example 2: These doggos are way too friggin' cute!!!! Prediction: 😭 😊 ❤️ 😍 🥰 🥺
 Example 3: Lovin' this new product. Prediction: ❤️ 💕 😁 🔥
@@ -89,16 +93,4 @@ EXAMPLES - CONTROLS
 	
 	What a terrible movie!
 			sentiment: -1.0, subjectivity: 1.0
-
-Todo: 
-	1. Stream tweets and find the most common emojis used OR use current data and paste them all in a reference list 
-	2. Using 1. Clean up the intro-text and make core examples
-	3. Find relevant code to create a sentiment score from textblob OR API
-	4. Using 3. Implement code into sentiment()
-	5. Get the predictEmoji() working.
-	6. Fill in the dictionaries.
-	7. Flesh out the predictEmoji() function.
-	8. Stress-test the program.
-
-	X. At the finalisation of the program, it can be reviewed by running the program with inputs from the twitter API and comparing suggested emojis and the actual emojis used. 
 """
